@@ -34,7 +34,10 @@ public class GridLayoutSample {
         //2. resize the frame to see the effect
         
         //////////////////////////////////////////////////////////////////////
-        
+        for(int i=0;i<6;i++){
+            CustomComponent c=new CustomComponent();
+            frame.add(c);
+        }
         frame.setVisible(true);
     }
     
